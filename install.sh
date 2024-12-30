@@ -96,7 +96,7 @@ aur_packages=(
     flameshot-git bibata-cursor-theme-bin tela-circle-icon-theme-dracula themix-theme-oomox-git themix-plugin-base16-git
     themix-icons-papirus-git themix-gui-git themix-export-spotify-git themix-theme-materia-git oomox-qt5-styleplugin-git
     oomox-qt6-styleplugin-git cava youtube-dl update-grub ttf-meslo-nerd-font-powerlevel10k visual-studio-code-bin
-    hyprpicker swaylock-effects-git wlr-randr-git hyprprop grimblast-git google-chrome wlogout cmatrix-git
+    hyprpicker swaylock-effects-git wlr-randr-git hyprprop grimblast-git google-chrome wlogout cmatrix-git telegram-desktop-bin
 )   
 
 # Check if paru is installed, if not, install it
