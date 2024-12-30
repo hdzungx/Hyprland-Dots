@@ -244,8 +244,10 @@ fi
 sudo systemctl enable NetworkManager
 sudo systemctl enable bluetooth.service
 sudo systemctl enable sshd
+sudo systemctl enable avahi-daemon
 sudo systemctl start bluetooth.service
 sudo systemctl start sshd
+sudo systemctl start avahi-daemon
 
 # Set open in terminal in nemo
 gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
