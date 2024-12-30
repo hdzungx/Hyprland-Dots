@@ -84,7 +84,7 @@ pacman_packages=(
     qt5-graphicaleffects qt5-svg qt5-quickcontrols2 clipnotify xdg-desktop-portal-gtk gnome-disk-utility evince neovim tmux
     cowsay polkit-gnome rofi-wayland rofimoji wmname pyenv xdg-desktop-portal ttf-hack-nerd hyprland waybar
     cliphist wl-clipboard xdg-desktop-portal-hyprland qt5-wayland qt6-wayland xdg-desktop-portal-wlr hypridle zsh swww
-    python python-pip zathura-pdf-poppler nemo nwg-look peaclock yt-dlp
+    python python-pip zathura-pdf-poppler nemo nwg-look peaclock yt-dlp fcitx5 fcitx5-bamboo fcitx5-configtool fcitx5-gtk fcitx5-qt
 )
 
 for package in "${pacman_packages[@]}"; do
