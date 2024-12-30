@@ -4,6 +4,9 @@ if [ -f $ZSH/oh-my-zsh.sh ]; then
   source $ZSH/oh-my-zsh.sh
 fi
 
+# Load plugins
+plugins=(zsh-autosuggestions)
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -80,3 +83,5 @@ alias applymouth='sudo plymouth-set-default-theme -R'
 # Prompt
 eval "$(starship init zsh)"
 
+# Load zsh-syntax-highlighting (always last)
+source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
